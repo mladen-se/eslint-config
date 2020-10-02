@@ -1,0 +1,29 @@
+{
+  "name": "@mladen-se/eslint-config",
+  "version": "1.0.0",
+  "description": "ESLint configuration for front end projects.",
+  "repository": {
+    "type": "git"
+  },
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "variables.js",
+    "imports.js",
+    "es6.js",
+    "best-practices.js",
+    "react.js"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-jsx-a11y": "^6.3.1",
+    "eslint-plugin-react": "^7.20.6",
+    "eslint-plugin-react-hooks": "^4.1.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.0.2",
+    "eslint": "^7.8.1"
+  }
+}
